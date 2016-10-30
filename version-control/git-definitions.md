@@ -17,3 +17,5 @@ A commit is when you record a change you've made in a repository. A good message
 * What is a merge conflict?
 
 A merge conflict is when the same line of code are edited on different branches, and then attempted to merge onto the same branch.
+
+#ooga booga happy halloween!
