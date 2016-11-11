@@ -1,0 +1,17 @@
+.octopus-swag{
+	position: relative;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+#hat{
+	position: absolute;
+	top: 50px;
+}
+#glasses{
+	position: absolute;
+	left: 50px;
+}
+#octopus{
+	position: absolute;
+	z-index: -2;
+}
