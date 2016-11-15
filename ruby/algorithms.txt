@@ -1,0 +1,60 @@
+Robot:
+
+while outside of elevator
+	-read number outside of elevator to know what floor you are on
+	if you want to go up
+		-press up button outside elevator
+	if you want to go down
+		-press down button outside elevator
+	while doors are open
+		-go inside elevator
+while inside elevator
+	-if you want to go up
+		-press button with number that coorresponds to floor level above you
+	-if you want to go down
+		-press button with number that coorresponds to floor level above you
+	-if elevator is stuck
+		-press the bell button to notify nearby humans to assist you
+	-while elevator doors are open
+		-if on floor you pressed
+			-exit elevator
+		-otherwise
+			-wait until the doors open on the floor you pressed
+
+Starting vehicle to leave:
+
+if taking car
+	while car is locked
+		-press unlock button on key fob to unlock car
+	otherwise
+		-open left door
+	while left door is open
+		-sit down inside
+	while sitting inside
+		-close left door
+		-put key in ignition
+		-put seat belt on
+		-push clutch in and turn the key to turn car on
+		-release the parking brake
+		-drive wherever
+if taking motorcycle
+	while garage door is closed
+		-open garage door
+		-push motorcycle outside
+	otherwise
+		-push motorcycle outside
+		-close garage door while grabbing gloves and make dash to leave garage without it closing on you
+		-make awkward step over laser sensor so garage door doesn't reopen
+	until wearing riding gear
+		-put helmet on
+		-put gloves on
+	while bike is not running
+		-pull out choke
+		-press kill switch to turn on electronics
+		-kick the kickstarter
+	while bike is not warm
+		-leave choke out
+	otherwise
+		-push choke in
+	while bike is running
+		-braap braap
